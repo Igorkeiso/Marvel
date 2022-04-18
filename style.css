@@ -8,8 +8,15 @@
     src: url(/fonts/Marvel.ttf);
 }
 
+:root {
+    --cor0: #F21B2D;
+    --cor1: #F25764;
+    --cor2: #F27983;
+    --cor3: #F2D0D3;
+}
+
 body , html {
-    background-image: linear-gradient( to bottom ,rgb(49, 38, 38) ,rgb(194, 56, 56)  );
+    background-image: linear-gradient(to right ,#F25764 ,#F27983 ) ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,27 +26,30 @@ img {
 }
 
 header{
-    margin: 5px;
+    
     text-align: center;
     font-family: 'Marvel';
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
+    
+    background-image: 
 }
 
 header h1 {
-    color: rgb(157, 34, 34);
+    color: #F21B2D;
     letter-spacing: 0.1cm;
 }
 
 header h2 {
-    color: rgb(157, 34, 34);
+    color: #F21B2D;
     letter-spacing: 0.1cm;
 }
 
 .menu {
 
     margin: 5px;
+    
     
 }
 
@@ -56,7 +66,7 @@ header h2 {
 }
 
 a:hover {
-    color: rgb(157, 34, 34);
+    color: #F21B2D;
     
 }
 
@@ -70,6 +80,7 @@ a:hover {
     text-transform: uppercase;
     font-size: 35px;
     text-align: center;
+    color: #F25764;
 }
 
 .botoes {
@@ -81,7 +92,7 @@ a:hover {
 .spoiler {
     border: 2px solid rgba(0, 0, 0, 0.5);
     text-align: center;
-    background-color: aqua;
+    background-color: #F27983;
     padding: 10px;
     margin: 20px;
     font-size: 50px;
@@ -92,7 +103,7 @@ a:hover {
 }
 
 .spoiler:hover {
-    background-color: rgba(157, 34, 34);
+    background-color: #F25764;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.3);
     transform: scale(1.1);
